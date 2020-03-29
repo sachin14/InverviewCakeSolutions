@@ -8,6 +8,7 @@ public class Solution {
         //My second comment
         System.out.println("My Interview Cake solutions");
 
+        //Start Merge Meetings Solution
         MergeMeetings m = new MergeMeetings();
 
         List<MergeMeetings.Meeting> meetings = Arrays.asList(
@@ -16,6 +17,16 @@ public class Solution {
         );
 
         System.out.println(m.mergeRanges(meetings).toString());
+        //End Merge meetings ///
+
+        //Start Reverse words Solution
+
+        ReverseWords rv = new ReverseWords();
+        String s = "";
+        char[] arr = new char[s.length()];
+        arr = s.toCharArray();
+        rv.reverseWords(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 
