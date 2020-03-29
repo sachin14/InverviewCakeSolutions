@@ -28,6 +28,15 @@ public class Solution {
         rv.reverseWords(arr);
         System.out.println(Arrays.toString(arr));
 
+        //End Reverse Words
+
+        //Start Merge arrays
+
+        MergeArrays ma = new MergeArrays();
+        final int[] myArray = {2, 4, 6};
+        final int[] alicesArray = {1, 3, 7};
+        System.out.println(Arrays.toString(ma.mergeArrays(myArray, alicesArray)));
+
     }
 
 }
