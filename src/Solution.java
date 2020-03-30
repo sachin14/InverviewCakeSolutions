@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class Solution {
@@ -53,6 +54,13 @@ public class Solution {
         TwoMovieLengths tw = new TwoMovieLengths();
 
         System.out.println("Movie Lengths: " + tw.canTwoMoviesFillFlight(new int[] {1, 2, 3, 4, 5, 6}, 7));
+        //End Twomovies lengths
+
+        //Start Has Palindrome Permutation
+
+        HasPalindromePermutation hp = new HasPalindromePermutation();
+
+        System.out.println(hp.hasPalindromePermutation("civic"));
 
     }
 
