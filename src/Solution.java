@@ -47,6 +47,13 @@ public class Solution {
         final int[] servedOrders = {2, 3, 6};
         System.out.println(ifcfs.isFirstComeFirstServed(takeOutOrders,dineInOrders,servedOrders));
 
+        //End Is First come first served
+
+        //Start Twomovies lengths
+        TwoMovieLengths tw = new TwoMovieLengths();
+
+        System.out.println("Movie Lengths: " + tw.canTwoMoviesFillFlight(new int[] {1, 2, 3, 4, 5, 6}, 7));
+
     }
 
 }
