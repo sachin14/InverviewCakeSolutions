@@ -68,7 +68,11 @@ public class Solution {
         AppleStock a = new AppleStock();
 
         System.out.println(a.getMaxProfit(new int[] {7, 2, 8, 9}));
+        //End Apple Stock
 
+        //Start Highest of 3
+        HighestProductofThree h3 = new HighestProductofThree();
+        System.out.println(h3.highestProductOf3(new int[] {-5, -1, -3, -2}));
 
     }
 
