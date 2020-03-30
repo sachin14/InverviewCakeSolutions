@@ -62,6 +62,14 @@ public class Solution {
 
         System.out.println(hp.hasPalindromePermutation("civic"));
 
+        //End Has Palindrome Permutation
+
+        //Start Apple stock
+        AppleStock a = new AppleStock();
+
+        System.out.println(a.getMaxProfit(new int[] {7, 2, 8, 9}));
+
+
     }
 
 }
