@@ -37,6 +37,16 @@ public class Solution {
         final int[] alicesArray = {1, 3, 7};
         System.out.println(Arrays.toString(ma.mergeArrays(myArray, alicesArray)));
 
+        //End merge arrays
+
+        //Start Is First come first served
+
+        IsFirstComeFirstServed ifcfs = new IsFirstComeFirstServed();
+        final int[] takeOutOrders = {};
+        final int[] dineInOrders = {2, 3, 6};
+        final int[] servedOrders = {2, 3, 6};
+        System.out.println(ifcfs.isFirstComeFirstServed(takeOutOrders,dineInOrders,servedOrders));
+
     }
 
 }
