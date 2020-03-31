@@ -74,6 +74,12 @@ public class Solution {
         HighestProductofThree h3 = new HighestProductofThree();
         System.out.println(h3.highestProductOf3(new int[] {-5, -1, -3, -2}));
 
+        //end highest of 3
+
+        //start product of all
+        ProductsofAllExceptIndex pr = new ProductsofAllExceptIndex();
+        System.out.println(Arrays.toString(pr.getProductsOfAllIntsExceptAtIndex(new int[] {8, 2, 4, 3, 1, 5})));
+
     }
 
 }
