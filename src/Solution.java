@@ -80,6 +80,12 @@ public class Solution {
         ProductsofAllExceptIndex pr = new ProductsofAllExceptIndex();
         System.out.println(Arrays.toString(pr.getProductsOfAllIntsExceptAtIndex(new int[] {8, 2, 4, 3, 1, 5})));
 
+        //start FindArray roation
+
+        FindArrayRotation far = new FindArrayRotation();
+        System.out.println("far= " + far.findRotationPoint(new String[] {"ptolemaic", "retrograde", "supplant", "undulate", "xenoepist",
+                "asymptote", "babka", "banoffee", "engender", "karpatka", "othellolagkage"}));
+
     }
 
 }
